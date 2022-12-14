@@ -48,6 +48,7 @@ h = ezplot(f,[0,1]);
 grid on;
 set(h,'Color','r');
 legend('Class1','Class2','Test','DecisionBoundary')
+set(legend,'location','SouthEast')
 %% 打印结果
 for k=1:5
     Result = w'*Test_Data(k,:)';
@@ -57,6 +58,3 @@ for k=1:5
         fprintf('测试样本%d结果为%f属于第二类 \n',k,Result);
     end
 end
-
-
-
