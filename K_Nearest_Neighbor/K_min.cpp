@@ -1,10 +1,5 @@
-#include"NumCpp.hpp"
-#include"boost/filesystem.hpp"
-#include<opencv2/core/core.hpp>
-#include<opencv2/highgui/highgui.hpp>
 #include <torch/torch.h>
 #include <torch/script.h>
-#include"tinyxml2.h"
 #include<iostream>
 using namespace std;
 
